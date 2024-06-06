@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(4, 1, 56);
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
+}
+.root{
+    display:  flex ;
+    flex-wrap: wrap ;
+    padding: 10px; width: 600px; margin: 28px auto;
+    margin-top: 20px;
+    left: 3px; right: 40px;
+}
+.paperstyle{
+    padding: 10px ;  max-height: 15vh ; width: 600px ; margin-left: 100px ; margin: 15px auto ;  background-color: rgb(105, 103, 103); left: 200px
+    
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .paperstyle {
+      background-color: rgba(255, 255, 255, .5);
+      -webkit-backdrop-filter: blur(2em);
+      backdrop-filter: blur(0.5em);
+    }
+  }
+
+.textField{
+    width: 60ch; left: 10 ;  overflow-wrap: break-word
+} 

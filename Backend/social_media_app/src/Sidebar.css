@@ -1,0 +1,24 @@
+.side{
+    margin: 50px; 
+    margin-left: 20px;
+   
+}
+.siderow{
+    color: rgb(119, 118, 118);
+    padding: 0 30px;
+    margin-top: -12px;
+    align-items: center;
+    display: flex;
+}
+.siderow>h2{
+margin-left: 10px;
+}
+.siderow:hover{
+color: rgb(2, 2, 27);
+width: max-content;
+border-radius: 25px;
+
+}
+.sider{
+    display: flex;
+}

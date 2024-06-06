@@ -1,0 +1,11 @@
+.feeds{
+   
+    display: flex;
+    margin-left: 190px;
+    margin-top: 20px;
+    color: blanchedalmond;
+   
+ }
+ .app{
+  background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+ }

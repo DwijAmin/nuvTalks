@@ -1,0 +1,167 @@
+.container {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .login,
+  .home {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .formTitle {
+    color: teal;
+    font-weight: bold;
+  }
+  
+  input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .submitButton {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .home {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .deleteButton {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff0f1;
+    color: #d95087;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #fad4d7;
+  }
+  
+  .error {
+    font-size: 12px;
+    color: crimson;
+  }
+  
+  .success {
+    font-size: 12px;
+    color: green;
+  }
+.log{
+  margin-top: 100px;
+  margin-left: 750px;
+  height: 370px;
+  width: 30%;
+  border-radius:20px;
+  background-color: rgb(194, 183, 183);
+}
+  .divvv{
+   margin-top: -22px;
+    height: calc(109.7vh - 60px);
+   
+    background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  }
+
+  .input_{
+    
+    width: 280px;
+    margin-top: 80px;
+    margin-left: 52px;
+    background-color: transparent;
+    
+    color: gray;
+    border-bottom: 3px groove rgb(168, 167, 167);
+  }
+  
+  .input_s{
+ 
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 52px;
+    background-color: transparent;
+    
+    color: gray;
+    border-bottom: 3px groove rgb(168, 167, 167);
+    
+  }
+  .btns_s{
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+  .glog{
+    margin-left: 85px;
+  }
+ .google{
+  margin-left : 20px;
+  margin-top: 200px;
+ }
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .log {
+    background-color: rgba(7, 7, 7, 0.5);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(0.5em);
+  }
+}
+  .google{
+   
+    margin-left: 550px;
+    margin-top: 250px;
+  }
+  .headers{
+    align-items: center; height: 200px;
+    background-color: black;
+   
+}
+.headers{
+    align-items: center;
+   background-color: thistle;
+   padding-left: 200px;
+  
+}
+.hh{
+  color: rgb(151, 150, 150);
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+.link{
+  margin-left: 1060px;
+  margin-top: -42px;
+    
+}

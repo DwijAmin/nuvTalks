@@ -1,0 +1,28 @@
+
+
+.glassy-text {
+  font-family: courier;
+  font-size: large;
+  text-align: center;
+  padding: 20px;
+  margin: 200px;
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgb(210, 214, 214);
+  padding: 20px 40px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glassy-text {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+body {
+   background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ background-image: url('https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2013/06/black-and-white-dictionary.jpg');
+}
